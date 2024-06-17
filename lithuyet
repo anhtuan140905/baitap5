@@ -1,0 +1,20 @@
+II. Kết hợp các selector
+
+1. \*selector-Chọn tất cả element
+
+- Cái này là áp dụng tất cả thẻ p, h,....
+
+2. element.class
+   Ví dụ:
+   <p>Đoạn văn 1</p>
+      <p>Đoạn văn 2</p>
+
+      <h2 class="title">Tiêu đề 2</h2>
+      <h3 class="title">Tiêu đề 2</h3>
+
+ở CSS:
+h2.title {
+color: red;
+}
+
+thì tất cả các thẻ h2 có class là demo chuyển sang màu đỏ --> Lưu ý phải là h2 class demo
